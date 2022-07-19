@@ -1,8 +1,12 @@
 #!/usr/bin/python3
 
+"""Define a clase Node"""
+
 
 class Node:
+    """Node class"""
     def __init__(self, data, next_node=None):
+        """Initialize a new node class"""
         self.data = data
         self.next_node = next_node
 
@@ -30,10 +34,13 @@ class Node:
 
 
 class SinglyLinkedList:
+    """SinglyLinkedList class"""
     def __init__(self):
+        """Initialize a new SinglyLinkedList class"""
         self.__head = None
 
     def sorted_insert(self, value):
+        """Insert node into singlylinkedlist"""
         new = Node(value)
         if self.__head is None:
             new.next_node = None
@@ -57,3 +64,8 @@ class SinglyLinkedList:
             values.append(str(tmp.data))
             tmp = tmp.next_node
         return ('\n'.join(values))
+
+
+if __name__ == "__main__":
+    Node()
+    SinglyLinkedList()
