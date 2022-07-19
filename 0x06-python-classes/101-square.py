@@ -1,8 +1,12 @@
 #!/usr/bin/python3
 
+"""Define a class Square"""
+
 
 class Square:
+    """Square class"""
     def __init__(self, size=0, position=(0, 0)):
+        """Initialize a new class"""
         self.size = size
         self.position = position
 
@@ -34,9 +38,11 @@ class Square:
         self.__position = value
 
     def area(self):
+        """Area of square"""
         return (self.__size * self.__size)
 
     def my_print(self):
+        """Print area of a square"""
         if self.__size == 0:
             print("")
             return
@@ -57,3 +63,7 @@ class Square:
             if i != self.__size - 1:
                 print("")
         return ("")
+
+
+if __name__ == "__main__":
+    Square()

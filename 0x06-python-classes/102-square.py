@@ -1,8 +1,12 @@
 #!/usr/bin/python3
 
+"""Define a class Square"""
+
 
 class Square:
+    """Square class"""
     def __init__(self, size=0):
+        """Initialize a new class"""
         self.size = size
 
     @property
@@ -19,6 +23,7 @@ class Square:
         self.__size = value
 
     def area(self):
+        """Area of the square"""
         return (self.__size * self.__size)
 
     def __eq__(self, other):
@@ -44,3 +49,7 @@ class Square:
     def __ge__(self, other):
         """ >= compmarison """
         return self.area() >= other.area()
+
+
+if __name__ == "__main__":
+    Square()
