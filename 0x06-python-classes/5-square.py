@@ -1,8 +1,12 @@
 #!/usr/bin/python3
 
+"""Define a class Square"""
+
 
 class Square:
+    """Square class"""
     def __init__(self, size=0):
+        """Initialize a new class"""
         self.size = size
 
     @property
@@ -31,8 +35,13 @@ class Square:
         return (self.__size)**2
 
     def my_print(self):
+        """Print the square with the # character."""
         for rows in range(0, self.__size):
             [print("#", end="") for i in range(self.__size)]
             print("")
         if self.__size == 0:
             print("")
+
+
+if __name__ == "__main__":
+    Square()
