@@ -1,8 +1,12 @@
 #!/usr/bin/python3
 
+"""Define a class Square"""
+
 
 class Square:
+    """Square class"""
     def __init__(self, size=0):
+        """Initialize a new class"""
         self.size = size
 
     @property
@@ -29,3 +33,7 @@ class Square:
         Area of square
         """
         return (self.__size)**2
+
+
+if __name__ == "__main__":
+    Square()
