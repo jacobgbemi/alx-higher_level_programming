@@ -15,7 +15,7 @@ This repository contains programs written for Higher Level Programming track in 
 - - Text edotor: Vim
 - - OS: Ubuntu 20.04(Focal)
 - - Compiler: gcc 9.4.0
-- - VM: VirtualBox and Vagrant (To install Vagrant, follow this [steps](https://github.com/jacobgbemi/zero_day#readme))
+- - VM: VirtualBox and Vagrant (To install Vagrant, follow these [steps](https://github.com/jacobgbemi/zero_day#readme))
 
 ### Author
 * Gbemi Jacob Adebayo [![GitHub](https://i.stack.imgur.com/tskMh.png) Jag](https://www.github.com/jacobgbemi) &nbsp; [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/gbemi-jacob-adebayo)
