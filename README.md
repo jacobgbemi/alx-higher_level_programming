@@ -10,7 +10,7 @@ This repository contains programs written for Higher Level Programming track in 
 - [0x04-python-more_data_structures](https://github.com/jacobgbemi/alx-higher_level_programming/tree/master/0x04-python-more_data_structures)
 
 ### Tools
-- - PEP8/Coding style: [pycodestyle](https://pypi.org/project/pycodestyle/)
+- - PEP8/Coding style: [pycodestyle 2.8.0](https://pypi.org/project/pycodestyle/) || [Google Style Python Docstring](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
 - - Python 3.8.0
 - - Text edotor: Vim
 - - OS: Ubuntu 20.04(Focal)
