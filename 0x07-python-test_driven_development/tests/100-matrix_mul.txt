@@ -18,6 +18,11 @@ Test signed and unsigned ints and floats in same size lists in list matrix::
      >>> print(matrix_mul(m_a, m_b))
      [[16.0]]
 
+     >>> m_a = [[1, 2], [3, 4], [3, 4]]
+	 >>> m_b = [[5, 6, 1], [7, 8, 2]]
+	 >>> print(matrix_mul(m_a, m_b))
+	 [[19, 22, 5], [43, 50, 11], [43, 50, 11]]
+
 FAIL CASES
 ==========
 
