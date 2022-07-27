@@ -37,6 +37,13 @@ Test empty matrix
      ...
      ValueError: m_b can't be empty
 
+	 >>> m_a = [[]]
+     >>> m_b = [[2, 0], [1, 2]]
+     >>> print(matrix_mul(m_a, m_b))
+     Traceback (most recent call last):
+     ...
+     ValueError: m_a can't be empty
+
      >>> m_a = [[2, 0], [1, 2]]
      >>> m_b = [[]]
      >>> print(matrix_mul(m_a, m_b))
@@ -88,3 +95,17 @@ Test matrix with other data types
      Traceback (most recent call last):
      ...
      TypeError: m_a must be a list
+
+	 >>> m_a = "ALX"
+     >>> m_b = [[1, 2], [1, 2]]
+     >>> print(matrix_mul(m_a, m_b))
+     Traceback (most recent call last):
+     ...
+     TypeError: m_a must be a list
+
+	 >>> m_a = [[1, 2], [1, 2]]
+	 >>> m_b = "ALX"
+     >>> print(matrix_mul(m_a, m_b))
+     Traceback (most recent call last):
+     ...
+     TypeError: m_b must be a list
