@@ -10,12 +10,12 @@ This repository contains programs written for Higher Level Programming track in 
 - [0x04-python-more_data_structures](https://github.com/jacobgbemi/alx-higher_level_programming/tree/master/0x04-python-more_data_structures)
 
 ### Tools
-- - PEP8/Coding style: [pycodestyle](https://pypi.org/project/pycodestyle/)
+- - PEP8/Coding style: [pycodestyle 2.8.0](https://pypi.org/project/pycodestyle/) || [Google Style Python Docstring](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
 - - Python 3.8.0
 - - Text edotor: Vim
 - - OS: Ubuntu 20.04(Focal)
 - - Compiler: gcc 9.4.0
-- - VM: VirtualBox and Vagrant
+- - VM: VirtualBox and Vagrant (To install Vagrant, follow these [steps](https://github.com/jacobgbemi/zero_day#readme))
 
 ### Author
 * Gbemi Jacob Adebayo [![GitHub](https://i.stack.imgur.com/tskMh.png) Jag](https://www.github.com/jacobgbemi) &nbsp; [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/gbemi-jacob-adebayo)
