@@ -101,6 +101,20 @@ Test matrix with other data types
      ...
      TypeError: m_a must be a list
 
+     >>> m_a = "ALX"
+     >>> m_b = "School"
+     >>> print(matrix_mul(m_a, m_b))
+     Traceback (most recent call last):
+     ...
+     TypeError: m_a must be a list
+
+     >>> m_a = None
+     >>> m_b = None
+     >>> print(matrix_mul(m_a, m_b))
+     Traceback (most recent call last):
+     ...
+     TypeError: m_a must be a list
+
 	 >>> m_a = "ALX"
      >>> m_b = [[1, 2], [1, 2]]
      >>> print(matrix_mul(m_a, m_b))
