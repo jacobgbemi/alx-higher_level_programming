@@ -43,7 +43,7 @@ Further exercises on SQL quesries and key concept
 
 | Usage | Command |
 | ---- | -------- |
-| Usage Example | $ cat ```0-list_databases.sql \| mysql -uroot -p``` |
+| Usage Example | $ ```cat 0-list_databases.sql \| mysql -uroot -p``` |
   
 ## Resources
 - [How To Create a New User and Grant Permissions in MySQL](https://alx-intranet.hbtn.io/rltoken/RniBKj48bnIN8xpXhGl1yA)
