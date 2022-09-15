@@ -3,7 +3,10 @@ Further exercises on SQL quesries and key concept
 ![SQL-JOIN](https://github.com/jacobgbemi/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/sql_join.png)
 
 ## Database Installation and Commands on UBUNTU 20.4
-
+### Installatiom
+- Install MySQL Server
+  - $ ```sudo apt install mysql-server```
+### Setup and Commands
 1. Set password for the first time
 	- $ ```mysqladmin -u root password NEWPASSWORD```
 2. Change existing Password
